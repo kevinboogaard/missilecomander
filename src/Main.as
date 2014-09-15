@@ -7,7 +7,7 @@ package
 	 * ...
 	 * @author Kevin Boogaard
 	 */
-	public class Main extends Sprite 
+	public class Main extends Sprite
 	{
 		
 		private var _game:game;
@@ -15,6 +15,7 @@ package
 		public function Main():void 
 		{
 			if (stage) init();
+			
 			else addEventListener(Event.ADDED_TO_STAGE, init);
 		}
 		
@@ -25,9 +26,5 @@ package
 		 addChild(_game);
 		
 	}
-	
-	
-	
-	
 }
 }
